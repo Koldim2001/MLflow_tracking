@@ -30,8 +30,9 @@ MLflow поддерживает множество фреймворков маш
 
 http://localhost:5000
 
-Код:
+### Код репозитория:
 
-https://nbviewer.org/github/Koldim2001/MLflow_tracking/blob/main/test_mlflow_pytorch.ipynb
+ > Результаты представлены в формате jupiter notebook: 
+ > 1) Работа с PyTorch - [test_mlflow_pytorch.ipynb](https://nbviewer.org/github/Koldim2001/MLflow_tracking/blob/main/test_mlflow_pytorch.ipynb)
+ > 2) Работа с Sklearn - [test_mlflow_sklearn.ipynb](https://nbviewer.org/github/Koldim2001/MLflow_tracking/blob/main/test_mlflow_sklearn.ipynb)
 
-https://nbviewer.org/github/Koldim2001/MLflow_tracking/blob/main/test_mlflow_sklearn.ipynb
