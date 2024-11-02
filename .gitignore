@@ -2,3 +2,6 @@ data_mnist
 mlartifacts
 *.pth
 *.png
+.env
+db_data
+minio_data
