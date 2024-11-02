@@ -47,3 +47,4 @@ docker-compose up -d
  > 1) Работа с PyTorch - [test_mlflow_pytorch.ipynb](https://nbviewer.org/github/Koldim2001/MLflow_tracking/blob/main/test_mlflow_pytorch.ipynb)
  > 2) Работа с Sklearn - [test_mlflow_sklearn.ipynb](https://nbviewer.org/github/Koldim2001/MLflow_tracking/blob/main/test_mlflow_sklearn.ipynb)
 
+Отдельно имеется файл test_s3.ipynb с примером того, как работать с MinIO. Для этого я сначала создал бакет test-bucket при запуске компоуза и теперь могу все что угодно в него класть и из него получать.

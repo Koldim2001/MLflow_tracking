@@ -5,3 +5,4 @@ mlartifacts
 .env
 minio_data
 db_data
+*.jpg

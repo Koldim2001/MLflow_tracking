@@ -57,7 +57,7 @@ services:
         mc alias set myminio http://s3:9000 ${MINIO_ROOT_USER} ${MINIO_ROOT_PASSWORD}
         mc admin user svcacct add --access-key ${MLFLOW_AWS_ACCESS_KEY_ID} --secret-key ${MLFLOW_AWS_SECRET_ACCESS_KEY} myminio ${MINIO_ROOT_USER}
         mc mb myminio/${MLFLOW_BUCKET_NAME}/artifacts
-        mc mb myminio/dvc-bucket
+        mc mb myminio/test-bucket
 
   mlflow_server:
     restart: always
