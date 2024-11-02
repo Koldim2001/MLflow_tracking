@@ -1,3 +1,4 @@
 data_mnist
 mlartifacts
 *.pth
+*.png
