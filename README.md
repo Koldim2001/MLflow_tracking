@@ -9,7 +9,7 @@ MLflow поддерживает множество фреймворков маш
 
 Команды терминала:
 
-Включим нужное окружение conda:
+Включим нужное окружение conda (можно просто открыть любое venv окружение):
 
 >conda activate "название окружения conda"
 
@@ -18,13 +18,12 @@ MLflow поддерживает множество фреймворков маш
 
 Запустим сервер:
 
->mlflow server --backend-store-uri "папка на компьютере, где будут храниться результаты"
+>mlflow server --backend-store-uri "папка на компьютере, где будут храниться результаты" --default-artifact-root "папка на компьютере, где будут храниться артефакты"
 
-В конце можно добавить нужный порт (автоматом 5000) следующей командой: --host localhost --port 5000
+В конце можно добавить нужный порт (автоматом 5000) --host localhost --port 5000
 
 пример:
->mlflow server --backend-store-uri "file:///D:/ML_flow_server/data_local" --host localhost --port 5000
-
+>mlflow server --backend-store-uri "file:///C:/ML_flow_server/data_local" --default-artifact-root "file:///C:/ML_flow_server/artefacts" --host localhost --port 5000
 
 После запуска описанных выше команд по этой ссылке будет доступен MLflow:
 
