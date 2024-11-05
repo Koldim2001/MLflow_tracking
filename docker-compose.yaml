@@ -76,7 +76,7 @@ services:
       AWS_ACCESS_KEY_ID: ${MLFLOW_AWS_ACCESS_KEY_ID}
       AWS_SECRET_ACCESS_KEY: ${MLFLOW_AWS_SECRET_ACCESS_KEY}
       MLFLOW_S3_ENDPOINT_URL: http://s3:9000
-      MLFLOW_S3_IGNORE_TLS: true
+      MLFLOW_S3_IGNORE_TLS: "True"
     command: >
       mlflow server
       --backend-store-uri postgresql://${PG_USER}:${PG_PASSWORD}@db:5432/${PG_DATABASE}
