@@ -38,7 +38,7 @@ MLFLOW_AWS_SECRET_ACCESS_KEY=poIuytRewq0987654321qwerty
 Выполните:
 
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 Когда контейнеры стартанут, на: 
