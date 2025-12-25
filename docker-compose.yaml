@@ -1,7 +1,7 @@
 services:
   db:
     restart: always
-    image: postgres
+    image: postgres:14-alpine3.22
     container_name: mlflow_db
     ports:
       - "5423:5432"
